@@ -82,7 +82,7 @@ if prompt:
         time.sleep(0.5) #これがないと上手く再生されません
         audio_placeholder.markdown(audio_html, unsafe_allow_html=True)
 st.markdown('###### Streamelitやこのサイトの関連情報は')
-link = '[イチゲブログ](https://kikuichige.com/17180/)'
+link = '[イチゲブログ](https://kikuichige.com/21772/)'
 st.markdown(link, unsafe_allow_html=True)
 st.write('<a href="https://voicevox.hiroshiba.jp/" target="_blank">VOICEVOX:ずんだもん</a>', unsafe_allow_html=True)
 st.write('<a data-v-730ae480="" href="https://anko.education/apps/weather_api" target="_blank">天気予報の参考：気象庁の天気予報JSONファイルをWebAPI的に利用したサンプルアプリ</a>', unsafe_allow_html=True)
